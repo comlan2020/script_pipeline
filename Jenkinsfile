@@ -4,17 +4,17 @@
     stages {
         stage('build') {
             steps {
-                echo 'build'
+                echo 'building'
             }
         }
          stage('test') {
             steps {
-                echo 'test'
+                echo 'testing'
             }
         }
-         stage('build') {
+         stage('deploy') {
             steps {
-                echo 'deploy'
+                echo 'deploying'
             }
         }
     }
